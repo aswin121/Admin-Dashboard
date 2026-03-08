@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22.14.0'
+          node-version: '22.14.0' # Vite 7.3.1 compatible
 
       - name: Install dependencies
         run: npm install

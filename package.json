@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://aswin121.github.io/Admin-Dashboard/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
