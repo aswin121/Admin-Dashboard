@@ -10,7 +10,7 @@ export default function ProfileMenu() {
     setProfileOpen(false);
     // Add logout logic here
     setTimeout(() => {
-      window.location.href = "/";
+      window.location.href = "/Admin-Dashboard";
     }, 500);
   };
 

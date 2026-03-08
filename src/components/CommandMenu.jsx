@@ -33,7 +33,7 @@ export default function CommandMenu() {
       <Command.List className="mt-2">
 
         <Command.Item
-          onSelect={() => navigate("/")}
+          onSelect={() => navigate("/Admin-Dashboard")}
           className="p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
         >
           Dashboard

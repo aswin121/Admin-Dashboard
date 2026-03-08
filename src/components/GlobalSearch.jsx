@@ -7,7 +7,7 @@ export default function GlobalSearch() {
   const navigate = useNavigate();
 
   const pages = [
-    { name: "Dashboard", path: "/" },
+    { name: "Dashboard", path: "/dashboard" },
     { name: "Analytics", path: "/analytics" },
     { name: "Users", path: "/users" },
   ];
