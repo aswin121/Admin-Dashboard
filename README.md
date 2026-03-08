@@ -1,38 +1,16 @@
-Modern Admin Dashboard
-Premium React Admin Template - Glassmorphism design with advanced animations, real-time data, and production-grade features.
+# React + Vite
 
-✨ Core Pages
-Products: Advanced table with search, category/price/stock filters, CRUD modals, pagination
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Analytics: Revenue cards, sparkline charts, stat counters, interactive pie charts
+Currently, two official plugins are available:
 
-Users: Role-based table, bulk actions, activity timeline, CSV export
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Orders: Status tracking, customer details, bulk updates, invoice printing
+## React Compiler
 
-Settings: Profile, theme toggle, notifications, activity logs
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-🎨 Design System
-Glassmorphism UI - Backdrop blur, translucent cards, gradient shadows
+## Expanding the ESLint configuration
 
-Framer Motion - 60fps hover/tap animations, page transitions
-
-Responsive - Mobile-first, perfect on all devices
-
-Dark/Light mode - Persistent theme switching
-
-⚡ Tech Stack
-React 18 + Tailwind CSS + TanStack Table + Framer Motion
-
-🚀 Production Ready
-Optimized animations (60fps)
-
-Virtualized tables (10k+ rows)
-
-Accessible modals (keyboard/screen reader)
-
-PWA ready, static hosting compatible
-
-Vercel/Netlify deployable
-
-Zero-config portfolio project - Copy-paste deployable with stunning visual polish and full CRUD functionality.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
