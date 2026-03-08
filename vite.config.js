@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Admin-Dashboard/',  // 🔥 YOUR REPO NAME
+  base: '/Admin-Dashboard/',
   build: {
-    outDir: 'build'  // Matches your workflow
+    outDir: 'build'
   }
 })
