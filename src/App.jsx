@@ -16,7 +16,7 @@ export default function App() {
 
       <Routes>
         {/* Public Route */}
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/Admin-Dashboard" element={<LoginPage />} />
 
         {/* Protected Routes with Layout */}
         <Route
