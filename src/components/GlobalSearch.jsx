@@ -7,9 +7,9 @@ export default function GlobalSearch() {
   const navigate = useNavigate();
 
   const pages = [
-    { name: "Dashboard", path: "/dashboard" },
-    { name: "Analytics", path: "/analytics" },
-    { name: "Users", path: "/users" },
+    { name: "Dashboard", path: "/Admin-Dashboard/dashboard" },
+    { name: "Analytics", path: "/Admin-Dashboard/analytics" },
+    { name: "Users", path: "/Admin-Dashboard/users" },
   ];
 
   const results = pages.filter(page =>

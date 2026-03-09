@@ -14,11 +14,11 @@ export default function Sidebar({ collapsed: externalCollapsed, onToggle }) {
   };
 
   const menuItems = [
-    { name: "Dashboard", icon: LayoutDashboard, path: "/dashboard", color: "from-indigo-500 to-purple-600" },
-    { name: "Users", icon: Users, path: "/users", color: "from-emerald-500 to-teal-600" },
-    { name: "Products", icon: Package, path: "/products", color: "from-orange-500 to-amber-600" },
-    { name: "Analytics", icon: BarChart3, path: "/analytics", color: "from-blue-500 to-indigo-600" },
-    { name: "Settings", icon: Settings, path: "/settings", color: "from-purple-500 to-violet-600" },
+    { name: "Dashboard", icon: LayoutDashboard, path: "/Admin-Dashboard/dashboard", color: "from-indigo-500 to-purple-600" },
+    { name: "Users", icon: Users, path: "/Admin-Dashboard/users", color: "from-emerald-500 to-teal-600" },
+    { name: "Products", icon: Package, path: "/Admin-Dashboard/products", color: "from-orange-500 to-amber-600" },
+    { name: "Analytics", icon: BarChart3, path: "/Admin-Dashboard/analytics", color: "from-blue-500 to-indigo-600" },
+    { name: "Settings", icon: Settings, path: "/Admin-Dashboard/settings", color: "from-purple-500 to-violet-600" },
   ];
 
   const sidebarVariants = {

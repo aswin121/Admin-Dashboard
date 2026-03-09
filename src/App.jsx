@@ -20,7 +20,7 @@ export default function App() {
 
         {/* Protected Routes with Layout */}
         <Route
-          path="/dashboard"
+          path="/Admin-Dashboard/dashboard"
           element={
             <ProtectedRoute>
               <DashboardLayout>
@@ -30,7 +30,7 @@ export default function App() {
           }
         />
         <Route
-          path="/analytics"
+          path="/Admin-Dashboard/analytics"
           element={
             <ProtectedRoute>
               <DashboardLayout>
@@ -40,7 +40,7 @@ export default function App() {
           }
         />
         <Route
-          path="/products"
+          path="/Admin-Dashboard/products"
           element={
             <ProtectedRoute>
               <DashboardLayout>
@@ -50,7 +50,7 @@ export default function App() {
           }
         />
         <Route
-          path="/settings"
+          path="/Admin-Dashboard/settings"
           element={
             <ProtectedRoute>
               <DashboardLayout>
@@ -60,7 +60,7 @@ export default function App() {
           }
         />
         <Route
-          path="/users"
+          path="/Admin-Dashboard/users"
           element={
             <ProtectedRoute>
               <DashboardLayout>

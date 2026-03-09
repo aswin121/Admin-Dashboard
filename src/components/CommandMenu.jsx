@@ -22,7 +22,7 @@ export default function CommandMenu() {
     <Command.Dialog
       open={open}
       onOpenChange={setOpen}
-      className="fixed top-20 left-1/2 -translate-x-1/2 w-96 bg-white dark:bg-slate-900 shadow-xl rounded-xl p-4 border"
+      className="fixed top-40 left-1/2 -translate-x-1/2 w-96 bg-white dark:bg-slate-900 shadow-xl rounded-xl p-4 border"
     >
 
       <Command.Input
@@ -33,28 +33,28 @@ export default function CommandMenu() {
       <Command.List className="mt-2">
 
         <Command.Item
-          onSelect={() => navigate("/Admin-Dashboard")}
+          onSelect={() => navigate("/Admin-Dashboard/dashboard")}
           className="p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
         >
           Dashboard
         </Command.Item>
 
         <Command.Item
-          onSelect={() => navigate("/users")}
+          onSelect={() => navigate("/Admin-Dashboard/users")}
           className="p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
         >
           Users
         </Command.Item>
 
         <Command.Item
-          onSelect={() => navigate("/analytics")}
+          onSelect={() => navigate("/Admin-Dashboard/analytics")}
           className="p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
         >
           Analytics
         </Command.Item>
 
         <Command.Item
-          onSelect={() => navigate("/settings")}
+          onSelect={() => navigate("/Admin-Dashboard/settings")}
           className="p-2 rounded hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer"
         >
           Settings
